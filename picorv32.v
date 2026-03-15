@@ -454,6 +454,10 @@ module picorv32 #(
                 pcpi_int_wr = pcpi_fadd_wr;
                 pcpi_int_rd = pcpi_fadd_rd;
             end
+            ENABLE_FUSED_FP && pcpi_fusedfp_ready: begin
+                pcpi_int_wr = pcpi_fusedfp_wr;
+                pcpi_int_rd = pcpi_fusedfp_rd;
+            end
 		endcase
 	end
 
