@@ -152,7 +152,8 @@ Testbench example (N=4, A[ ] at x1, B[ ] at x10, result in x20):
 
 ### Waveform
 
-![Simulation Waveform](waveform.png)
+<img width="1891" height="317" alt="waveform png" src="https://github.com/user-attachments/assets/79e9f524-e4ec-42a4-a4c3-fb314e4ab933" />
+
 
 The waveform shows the complete execution sequence:
 1. Instruction fetch of the 16 `lui`/`addi` operand-load instructions
@@ -205,7 +206,11 @@ ifetch 0x0000004c: 0x00100073   # ebreak
 | 3 | 4.0 × 4.0 + 15.5 | `0x41FC0000` | **31.5** ✓ |
 
 ---
+### Architecutre Overview
 
+<img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/c090e50c-3cec-4d13-af01-80f157767572" />
+
+---
 ## How to Reproduce in Vivado
 
 ### Requirements
